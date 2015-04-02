@@ -30,6 +30,15 @@ with(new Micro($baseDir))
     ->send();
 ```
 
+```php
+// File: routes.php
+
+Route::get('/', function ()
+{
+    View::make('home')->render()
+});
+```
+
 ### Installing
 
 ```sh
