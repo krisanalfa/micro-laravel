@@ -1,0 +1,28 @@
+{
+    "name": "krisanalfa/micro",
+    "description": "Laravel Micro Framework",
+    "require": {
+        "illuminate/routing": "~5.0.4",
+        "illuminate/events": "~5.0.4",
+        "illuminate/view": "~5.0.4",
+        "illuminate/database": "~5.0.4",
+        "illuminate/config": "~5.0.4",
+        "illuminate/auth": "~5.0.4",
+        "illuminate/hashing": "~5.0.4",
+        "illuminate/cookie": "~5.0.4",
+        "illuminate/mail": "~5.0.4",
+        "jenssegers/mongodb": "~2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krisan Alfa Timur",
+            "email": "krisan47@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Micro": "src"
+        }
+    }
+}
